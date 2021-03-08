@@ -1,0 +1,16 @@
+
+pom concepts
+
+: page object model
+: we are going to use TestNG concepts throughout the Framework
+: we are going to use page factory with POM framework
+: we are going to use testng for execution
+: we are going to generate report using testng
+
+structure of POM framework
+1. base class : multiple browser setup
+2. page objectory : we are going to capture all the xpaths, created webelements, methods and we will iniliaze driver and pagefactory
+3. Test cases : we are going to call all the methods which are there in page objectory
+4. config : we will use concept of map in order to call the keys , it will have url, browsername, username, password
+5. driver : different divers .exe
+6. execute with the help of testng
